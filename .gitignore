@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+# never commit session data, audit logs or local settings
+*.jsonl
+session-*.json
+.env
+.claude/settings.local.json
+.DS_Store
+# local runtime data of trclient (never commit)
+*.jsonl
+bot-journal.md
+watch.json
+config.json
+STOP
+
+# downloaded documents
+trclient-documents/
+*.pdf
